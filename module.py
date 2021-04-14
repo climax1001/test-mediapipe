@@ -11,85 +11,71 @@ class handDetector():
         self.detectionCon = detectionCon
         self.trackCon = trackCon
         self.mpHands = mp.solutions.hands
-        self.hands = self. mpHands.Hands(self.mode, self.maxHands, self.detectionCon,
-                                         self.trackCon)  # RGB use
+        self.hands = self. mpHands.Hands(self.mode, self.maxHands, self.detectionCon, self.trackCon)  # RGB use
         self.mpDraw = mp.solutions.drawing_utils
 
 
     def findHands(self, img, draw = True):
         imgRGB = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
         self.results = self.hands.process(imgRGB)
-        # print(results.multi_hand_landmarks)
+        # print("Multi_hand_landmarks :",self.results.multi_hand_landmarks)
         if self.results.multi_hand_landmarks:
             for handLms in self.results.multi_hand_landmarks:
                 if draw:
                     self.mpDraw.draw_landmarks(img, handLms, self.mpHands.HAND_CONNECTIONS)
         return img
 
-    def findPosition(self, img, handNo=[0,1], draw =True ):
+    def findPosition(self, img, handNo=[0,1], draw=True):
         lmList = []
         if self.results.multi_hand_landmarks:
-            myHand = self.results.multi_hand_landmarks[0]
-
+            myHand = self.results.multi_hand_landmarks[handNo]
+            # print(myHand, handNo)
             for id, lm in enumerate(myHand.landmark):
                 # print(id,lm)
                 h, w, c = img.shape
                 cx, cy = int(lm.x * w), int(lm.y * h)
                 # print(id, cx, cy)
                 which_h = self.results.multi_handedness
-                which_h = str(which_h)[(str(which_h).find("label")+8):(str(which_h).find("label")+9)]
                 # print(which_h)
-
+                which_h = str(which_h)[(str(which_h).find("label")+8):(str(which_h).find("label")+9)]
+                #어느 쪽 손인지 출력
+                # print(which_h)
                 # print(test)
 
-                lmList.append([handNo, which_h, id, cx, cy])
+                lmList.append([which_h, id, cx, cy])
                 if draw:
                     cv2.circle(img,(cx,cy), 10, (255,0,255), cv2.FILLED)
-                # if wid == 4 or id == 8 or id == 12 or id == 16 or id ==20 :
-                #     cv2.circle(img, (cx, cy), 15, (125, 125, 255), cv2.FILLED)
+                if id == 4 or id == 8 or id == 12 or id == 16 or id ==20 :
+                    cv2.circle(img, (cx, cy), 15, (125, 125, 255), cv2.FILLED)
 
-            if myHand is not None:
-                myHand2 = self.results.multi_hand_landmarks[handNo[1]]
-                print(myHand2)
         return lmList
 
+    def left_hand_tracker(self, img):
+        lmlist = []
+        # if self.results.multi_hand_landmarks:
+        #     myhand =
+        return lmlist
+
+def to_df(list):
+    df = pd.DataFrame(list, columns=["r" + str(i for i in range(20))])
+    for i in list:
+        df.loc[i] = list[i][3:4]
+
+    return df
 def main():
     pTime = 0
     cTime = 0
-    # cap = cv2.VideoCapture('hand_video/keti.mp4')
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture('hand_video/k_office.mp4')
+    # cap = cv2.VideoCapture(0)
     detector = handDetector()
-    # totalList = pd.DataFrame({
-    #     'r0': [],
-    #     'r1': [],
-    #     '2': [],
-    #     '3': [],
-    #     '4': [],
-    #     '5': [],
-    #     '6': [],
-    #     '7': [],
-    #     '8': [],
-    #     '9': [],
-    #     '10': [],
-    #     '11': [],
-    #     '12': [],
-    #     '13': [],
-    #     '14': [],
-    #     '15': [],
-    #     '16': [],
-    #     '17': [],
-    #     '18': [],
-    #     '19': [],
-    #     '20': [],
-    # })
     while True:
         success, img = cap.read()
         img = detector.findHands(img)
         lmList = detector.findPosition(img,handNo=0, draw=False)
-        # totalList.append(lmList)
+        # test_df = to_df(lmList)
         if len(lmList)!=0:
             print(lmList)
-
+        # print(test_df)
         # data_to_csv = pd.DataFrame(lmList)
         #fps 계산
         cTime = time.time()

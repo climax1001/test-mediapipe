@@ -2,83 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c82d2d6-c3c8-423f-9997-c4e474b5799a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1020test/.idea/1020test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1020test/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1020test/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1020test/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1020test/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1020test/aa9c816b-ffaa-0691-6c80-5d5a46738536.com.samsung.health.heart_rate.binning_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1020test/defb07f2-959d-ca27-91f6-d5c78799a1af.com.samsung.health.heart_rate.binning_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1020test/e3e1b82c-cd08-5b1a-3b97-7205713a488c.com.samsung.health.heart_rate.binning_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1020test/f963887e-ca08-3ff7-522a-bd34f7368bf1.com.samsung.health.heart_rate.binning_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1020test/timestamp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/greenberryui/FragmentPage4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jongsul/capstone/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../jongsul/capstone/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jongsul/capstone/app/src/main/java/com/example/capstone0531/InsertClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../jongsul/capstone/app/src/main/java/com/example/capstone0531/InsertClass.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jongsul/capstone/app/src/main/java/com/example/capstone0531/classAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../jongsul/capstone/app/src/main/java/com/example/capstone0531/classAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jongsul/capstone/app/src/main/java/com/example/capstone0531/classDataViewHolder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../jongsul/capstone/app/src/main/java/com/example/capstone0531/classDataViewHolder.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jongsul/capstone/app/src/main/java/com/example/capstone0531/classlist.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../jongsul/capstone/app/src/main/java/com/example/capstone0531/classlist.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jongsul/capstone/app/src/main/res/layout/activity_insert_class.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jongsul/capstone/app/src/main/res/layout/activity_insert_class.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jongsul/capstone/app/src/main/res/layout/activity_time_table.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jongsul/capstone/app/src/main/res/layout/activity_time_table.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jongsul/capstone/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../jongsul/capstone/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module.py" beforeDir="false" afterPath="$PROJECT_DIR$/module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/originmedia.py" beforeDir="false" afterPath="$PROJECT_DIR$/originmedia.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/module.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="111" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/originmedia.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FingerCounting.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FingerImages/3.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -116,6 +49,7 @@
     <option name="width" value="1440" />
     <option name="height" value="780" />
   </component>
+  <component name="ProjectId" id="1r5xYiiQKmofCl4yQXr0dEnpIdI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -146,30 +80,22 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="directory&#10;repository" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\32141665\Desktop\mediapipe\FingerImages" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.module">
+  <component name="RunManager" selected="Python.originmedia">
     <configuration name="FingerCounting" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -233,6 +159,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="module2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\32141665\AppData\Roaming\SPB_Data\.conda\envs\pytorch-openpose\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="originmedia" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -254,14 +201,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="to_df" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\32141665\AppData\Roaming\SPB_Data\.conda\envs\pytorch-openpose\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/to_df.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.module" />
         <item itemvalue="Python.originmedia" />
+        <item itemvalue="Python.module2" />
+        <item itemvalue="Python.to_df" />
+        <item itemvalue="Python.module" />
         <item itemvalue="Python.FingerCounting" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>

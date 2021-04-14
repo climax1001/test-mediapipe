@@ -2,13 +2,13 @@ import cv2
 import mediapipe as mp
 mp_drawing = mp.solutions.drawing_utils
 mp_hands = mp.solutions.hands
-
 # For static images:
+cap = cv2.VideoCapture('hand_video/k_office.mp4')
 with mp_hands.Hands(
     static_image_mode=True,
     max_num_hands=2,
     min_detection_confidence=0.5) as hands:
-  for idx, file in enumerate(file_list):
+  for idx, file in enumerate('FingerImages'):
     # Read an image, flip it around y-axis for correct handedness output (see
     # above).
     image = cv2.flip(cv2.imread(file), 1)
