@@ -8,7 +8,7 @@ mp_hands = mp.solutions.hands
 count = 0
 # For webcam input:
 
-cap = cv2.VideoCapture('hand_video/k_office.mp4')
+cap = cv2.VideoCapture('hand_video/keti.mp4')
 with mp_hands.Hands(
         min_detection_confidence=0.5,
         min_tracking_confidence=0.5) as hands:

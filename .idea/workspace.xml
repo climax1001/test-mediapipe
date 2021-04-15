@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c82d2d6-c3c8-423f-9997-c4e474b5799a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitled.iml" afterDir="false" />
+    <list default="true" id="1c82d2d6-c3c8-423f-9997-c4e474b5799a" name="Default Changelist" comment="4/14 commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module.py" beforeDir="false" afterPath="$PROJECT_DIR$/module.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/originmedia.py" beforeDir="false" afterPath="$PROJECT_DIR$/originmedia.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2.py" beforeDir="false" afterPath="$PROJECT_DIR$/module2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,14 +86,14 @@
     <property name="ChangesTree.GroupingKeys" value="directory&#10;repository" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\32141665\Desktop\mediapipe\FingerImages" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.originmedia">
+  <component name="RunManager" selected="Python.module">
     <configuration name="FingerCounting" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -224,10 +222,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.originmedia" />
-        <item itemvalue="Python.module2" />
-        <item itemvalue="Python.to_df" />
         <item itemvalue="Python.module" />
+        <item itemvalue="Python.module2" />
+        <item itemvalue="Python.originmedia" />
+        <item itemvalue="Python.to_df" />
         <item itemvalue="Python.FingerCounting" />
       </list>
     </recent_temporary>
@@ -244,6 +242,21 @@
       <option name="presentableId" value="Default" />
       <updated>1617586259062</updated>
     </task>
+    <task id="LOCAL-00001" summary="4/14 commit">
+      <created>1618399357833</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618399357833</updated>
+    </task>
+    <task id="LOCAL-00002" summary="4/14 commit">
+      <created>1618399456643</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618399456643</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -269,6 +282,22 @@
       <window_info anchor="right" id="R Graphics" order="3" weight="0.32995737" />
       <window_info anchor="right" id="R Packages" order="4" weight="0.32995737" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="4/14 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="4/14 commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/FingerImages/1.jpg">
